@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data-extraction-rules>
+    <!--
+    Aturan ekstraksi data digunakan untuk menentukan file dan direktori mana
+    yang dapat ditransfer dari perangkat untuk tujuan seperti backup atau transfer.
+    Aturan ini berlaku untuk transfer yang diinisiasi oleh pengguna, seperti "adb backup".
+
+    Formatnya mirip dengan aturan backup, menggunakan <include> dan <exclude>.
+    -->
+    <cloud-backup>
+        <!--
+        Di sini Anda mendefinisikan aturan untuk pencadangan ke cloud (Auto Backup).
+        Secara default, semua konten yang diizinkan akan dicadangkan.
+        Anda bisa mengecualikan database jika tidak ingin mencadangkannya.
+        Contoh: <exclude domain="database" />
+        -->
+        <include domain="database" />
+        <include domain="sharedpref" />
+        <include domain="file" />
+        <include domain="root" />
+    </cloud-backup>
+    <device-transfer>
+        <!--
+        Aturan untuk transfer antar perangkat (Device-to-Device transfer).
+        -->
+        <include domain="database" />
+        <include domain="sharedpref" />
+        <include domain="file" />
+        <include domain="root" />
+    </device-transfer>
+</data-extraction-rules>

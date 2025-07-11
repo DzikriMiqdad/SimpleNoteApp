@@ -1,0 +1,22 @@
+<!-- File: app/src/main/res/values/strings.xml -->
+<resources>
+    <string name="app_name">SimpleNoteApp</string>
+
+    <!-- Teks untuk activity_note_add_edit.xml -->
+    <string name="hint_title">Judul</string>
+    <string name="hint_content">Isi Catatan</string>
+    <string name="button_save">Simpan</string>
+
+    <!-- Teks untuk dialog konfirmasi hapus -->
+    <string name="delete_dialog_title">Hapus Catatan</string>
+    <string name="delete_dialog_message">Apakah Anda yakin ingin menghapus catatan ini?</string>
+    <string name="delete_action">Hapus</string>
+    <string name="cancel_action">Batal</string>
+
+    <!-- Teks untuk menu dan toast -->
+    <string name="menu_delete_title">Hapus</string>
+    <string name="toast_note_saved">Catatan disimpan</string>
+    <string name="toast_note_updated">Catatan diperbarui</string>
+    <string name="toast_note_deleted">Catatan dihapus</string>
+    <string name="toast_empty_note_warning">Judul dan isi tidak boleh kosong</string>
+</resources>
