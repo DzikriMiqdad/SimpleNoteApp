@@ -32,11 +32,9 @@ This is a simple note-taking application developed for the Android platform. The
 
 ## **Screenshots**
 
-*You can paste your application screenshots here. Just upload the images to GitHub and copy the links here.*
-
 | Main Screen | Add/Edit Screen |
 |:------------|:----------------|
-| a           | b               |
+| <img width="302" height="671" alt="Screenshot_20250716_104028" src="https://github.com/user-attachments/assets/25a49c52-61f5-4e54-8a7a-b85253c48daf" /> |<img width="302" height="671" alt="Screenshot_20250716_104048" src="https://github.com/user-attachments/assets/9510a8cb-27a7-41d5-b452-7df3df6720d1" /> |
 
 ## **Conclusion**
 
