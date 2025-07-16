@@ -10,8 +10,7 @@ This is a simple note-taking application developed for the Android platform. The
 * **Delete Notes**: Remove notes in two ways:  
   * By swiping the note left or right in the list.  
   * By tapping the delete icon while editing a note.  
-* **Local Storage**: All notes are securely saved on the device using the Room database.  
-* **Initial Data**: The app automatically creates a "welcome" note on the first install.
+* **Local Storage**: All notes are securely saved on the device using the Room database.
 
 ## **Technologies Used**
 
@@ -43,11 +42,11 @@ This is a simple note-taking application developed for the Android platform. The
 
 This SimpleNoteApp demonstrates the implementation of **Kotlin** with the **MVVM** architecture and **Android Jetpack** components (Room, ViewModel, LiveData). This project serves as a strong foundational example for building modern, efficient, and scalable Android applications. 🚀
 
-\<hr\>  
-\<p dir="auto"\>\<strong\>Author\</strong\>: Dzikri Miqdad Alhamdani | NIM 312310251\<br\>  
-\<strong\>Course\</strong\>: Mobile Programming 2 \- Android\<br\>  
-\<strong\>Instructor\</strong\>: Mr. Eko Budiarto, S.Kom., M.M.\<br\>  
-\<strong\>Institution\</strong\>: Universitas Pelita Bangsa\</p\>\<hr\>
+<hr>
+<p dir="auto"><strong>Author</strong>: Dzikri Miqdad Alhamdani | NIM 312310251<br>
+<strong>Course</strong>: Mobile Programming 2 - Android<br>
+<strong>Instructor</strong>: Mr. Eko Budiarto, S.Kom., M.M.<br>
+<strong>Institution</strong>: Universitas Pelita Bangsa</p><hr>
 
 ## **Feedback**
 
