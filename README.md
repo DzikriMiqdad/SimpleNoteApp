@@ -35,8 +35,8 @@ This is a simple note-taking application developed for the Android platform. The
 *You can paste your application screenshots here. Just upload the images to GitHub and copy the links here.*
 
 | Main Screen | Add/Edit Screen |
-| :---- | :---- |
-|  |  |
+|:------------| :---- |
+| a           |  |
 
 ## **Conclusion**
 
