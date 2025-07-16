@@ -1,54 +1,54 @@
 # **SimpleNoteApp \- Android**
 
-Ini adalah aplikasi pencatat sederhana (Simple Note) yang dikembangkan untuk platform Android. Aplikasi ini dibangun menggunakan **Kotlin** dan mengikuti praktik arsitektur modern **MVVM (Model-View-ViewModel)**. Untuk penyimpanan data lokal, aplikasi ini memanfaatkan komponen Android Jetpack seperti **Room Persistence Library**, **ViewModel**, dan **LiveData** untuk menciptakan aplikasi yang reaktif, efisien, dan mudah dikelola.
+This is a simple note-taking application developed for the Android platform. The app is built using **Kotlin** and follows the modern **MVVM (Model-View-ViewModel)** architectural pattern. For local data storage, it utilizes Android Jetpack components such as the **Room Persistence Library**, **ViewModel**, and **LiveData** to create a reactive, efficient, and maintainable application.
 
-## **Fitur**
+## **Features**
 
-* **Buat Catatan**: Menambahkan catatan baru dengan judul dan isi yang sederhana dan intuitif.  
-* **Baca Catatan**: Menampilkan semua catatan dalam daftar yang dapat di-scroll.  
-* **Perbarui Catatan**: Mengedit catatan yang sudah ada dengan mudah.  
-* **Hapus Catatan**: Menghapus catatan dengan dua cara:  
-  * Menggeser (swipe) catatan ke kiri atau kanan pada daftar.  
-  * Menekan ikon hapus saat mengedit catatan.  
-* **Penyimpanan Lokal**: Semua catatan disimpan dengan aman di perangkat menggunakan database Room.  
-* **Data Awal**: Aplikasi secara otomatis membuat catatan "selamat datang" saat pertama kali diinstal.
+* **Create Notes**: Easily add new notes with a simple and intuitive title and content interface.  
+* **Read Notes**: Displays all notes in a scrollable list.  
+* **Update Notes**: Seamlessly edit existing notes.  
+* **Delete Notes**: Remove notes in two ways:  
+  * By swiping the note left or right in the list.  
+  * By tapping the delete icon while editing a note.  
+* **Local Storage**: All notes are securely saved on the device using the Room database.  
+* **Initial Data**: The app automatically creates a "welcome" note on the first install.
 
-## **Teknologi yang Digunakan**
+## **Technologies Used**
 
-* **Kotlin**: Bahasa pemrograman utama yang modern dan direkomendasikan untuk pengembangan Android.  
-* **Android Studio**: Lingkungan Pengembangan Terpadu (IDE) resmi untuk pengembangan aplikasi Android.  
-* **Arsitektur MVVM**: Pola arsitektur yang memisahkan logika UI dari logika bisnis.  
+* **Kotlin**: The primary, modern, and recommended programming language for Android development.  
+* **Android Studio**: The official Integrated Development Environment (IDE) for Android app development.  
+* **MVVM Architecture**: An architectural pattern that separates the UI logic from the business logic.  
 * **Android Jetpack Components**:  
-  * **Room**: Lapisan abstraksi di atas SQLite untuk penyimpanan data yang lebih kuat dan mudah.  
-  * **ViewModel**: Mengelola data terkait UI agar tetap bertahan saat terjadi perubahan konfigurasi (seperti rotasi layar).  
-  * **LiveData**: Kelas penyimpan data yang dapat diamati dan sadar akan siklus hidup (lifecycle-aware).  
-  * **ViewBinding**: Mengakses view di layout dengan lebih mudah dan aman (type-safe).
+  * **Room**: An abstraction layer over SQLite for more robust and straightforward database access.  
+  * **ViewModel**: Manages UI-related data in a lifecycle-conscious way, allowing data to survive configuration changes (like screen rotations).  
+  * **LiveData**: A lifecycle-aware, observable data holder class.  
+  * **ViewBinding**: Accesses views in layouts more easily and with type-safety.
 
-## **Cara Menggunakan**
+## **How to Use**
 
-1. *Clone* repositori ini ke Komputer lokal Anda.  
-2. Buka proyek di Android Studio.  
-3. *Build* dan jalankan proyek di emulator Android atau perangkat fisik.  
-4. Mulai buat catatan Anda\!
+1. Clone this repository to your local machine.  
+2. Open the project in Android Studio.  
+3. Build and run the project on an Android emulator or a physical device.  
+4. Start creating your notes\!
 
-## **Screenshot**
+## **Screenshots**
 
-*Di sini Anda bisa menempelkan screenshot aplikasi Anda. Cukup upload gambar ke GitHub dan salin link-nya ke sini.*
+*You can paste your application screenshots here. Just upload the images to GitHub and copy the links here.*
 
-| Tampilan Utama | Tambah/Edit Catatan |
+| Main Screen | Add/Edit Screen |
 | :---- | :---- |
-| \[Gambar dari Tampilan Utama\] | \[Gambar dari Halaman Tambah/Edit\] |
+|  |  |
 
-## **Kesimpulan**
+## **Conclusion**
 
-Aplikasi SimpleNoteApp ini mendemonstrasikan implementasi **Kotlin** dengan arsitektur **MVVM** dan komponen **Android Jetpack** (Room, ViewModel, LiveData). Proyek ini menjadi contoh dasar yang kuat untuk membangun aplikasi Android yang modern, efisien, dan dapat diskalakan. 🚀
+This SimpleNoteApp demonstrates the implementation of **Kotlin** with the **MVVM** architecture and **Android Jetpack** components (Room, ViewModel, LiveData). This project serves as a strong foundational example for building modern, efficient, and scalable Android applications. 🚀
 
-<hr>
-<p dir="auto"><strong>Author</strong>: Dzikri Miqdad Alhamdani | NIM 312310251<br>
-<strong>Course</strong>: Mobile Programming 2 - Android<br>
-<strong>Instructor</strong>: Mr. Eko Budiarto, S.Kom., M.M.<br>
-<strong>Institution</strong>: Universitas Pelita Bangsa</p><hr>
+\<hr\>  
+\<p dir="auto"\>\<strong\>Author\</strong\>: Dzikri Miqdad Alhamdani | NIM 312310251\<br\>  
+\<strong\>Course\</strong\>: Mobile Programming 2 \- Android\<br\>  
+\<strong\>Instructor\</strong\>: Mr. Eko Budiarto, S.Kom., M.M.\<br\>  
+\<strong\>Institution\</strong\>: Universitas Pelita Bangsa\</p\>\<hr\>
 
 ## **Feedback**
 
-Jika Anda memiliki masukan, silakan hubungi saya di me@remonn.org
+If you have any feedback, please reach out to me at me@remonn.org
