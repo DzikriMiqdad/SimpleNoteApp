@@ -49,3 +49,5 @@ This SimpleNoteApp demonstrates the implementation of **Kotlin** with the **MVVM
 ## **Feedback**
 
 If you have any feedback, please reach out to me at me@remonn.org
+
+![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FDzikriMiqdad%2FSimpleNoteApp&label=VISITORS&labelColor=%23d9e3f0&countColor=%23263759)
